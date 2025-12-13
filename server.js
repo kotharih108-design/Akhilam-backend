@@ -43,10 +43,12 @@ mongoose
 const AdminRoutes = require('./Routes/adminRoutes');
 const CategoryRoutes = require('./Routes/categoryRoutes');
 const ProductRoutes = require('./Routes/ProductRoutes');
+const PhotoRoutes = require('./Routes/PhotoRoutes');
 
 // API Routes
 app.use('/abhisekh', CategoryRoutes);
 app.use('/abhisekh', ProductRoutes);
+app.use('/abhisekh', PhotoRoutes);
 app.use('/abhisekh', AdminRoutes);
 app.use('/abhisekh/api/admin', AdminRoutes);
 
