@@ -1,7 +1,7 @@
 {
-  "name": "abhisekh-backend",
+  "name": "akhilam-backend",
   "version": "1.0.0",
-  "description": "Backend API for abhisekh - Admin management system",
+  "description": "Backend API for akhilam - Admin management system",
   "main": "server.js",
   "type": "commonjs",
   "engines": {
@@ -13,7 +13,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [
-    "abhisekh",
+    "akhilam",
     "backend",
     "API",
     "admin",
@@ -23,7 +23,7 @@
     "Express",
     "MongoDB"
   ],
-  "author": "abhisekh Team",
+  "author": "akhilam Team",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
