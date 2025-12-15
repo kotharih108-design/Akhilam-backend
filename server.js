@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Routes
-const productRoutes = require('./Routes/productRoutes');
+const productRoutes = require('./Routes/ProductRoutes');
 app.use('/akhilam/products', productRoutes);
 
 const publicRoutes = require('./Routes/publicRoutes');
