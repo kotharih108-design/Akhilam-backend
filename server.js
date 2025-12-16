@@ -22,6 +22,9 @@ app.use('/akhilam/public', publicRoutes);
 const galleryRoutes = require('./Routes/galleryRoutes');
 app.use('/akhilam/gallery', galleryRoutes);
 
+const adminRoutes = require('./Routes/adminRoutes');
+app.use('/akhilam/admin', adminRoutes);
+
 // Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
